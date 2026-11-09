@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A24 Oscar Tracker</title>
+  <meta name="description" content="Every A24 release and its Academy Award nominations and wins, ceremony by ceremony.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="masthead">
+    <div class="wrap">
+      <p class="eyebrow">Studio tracker</p>
+      <h1>A24 <span class="at">at the</span> Oscars</h1>
+      <p class="lede">Every A24 release and the Academy Award nominations and wins behind it, from the 88th ceremony to the 98th.</p>
+      <nav class="jump" aria-label="Sections">
+        <a href="#ceremonies">By ceremony</a>
+        <a href="#nominated">Nominated films</a>
+        <a href="#categories">Categories</a>
+        <a href="#films">All releases</a>
+        <a href="#about">About the data</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <p id="load-status" class="load-status" role="status">Loading data…</p>
+
+    <section aria-labelledby="stats-h" class="section">
+      <h2 id="stats-h" class="visually-hidden">Headline numbers</h2>
+      <div id="stats" class="stats"></div>
+      <p id="stats-note" class="footnote"></p>
+    </section>
+
+    <section id="ceremonies" aria-labelledby="cer-h" class="section">
+      <div class="section-head">
+        <h2 id="cer-h">Nominations and wins by ceremony</h2>
+        <button type="button" class="link-btn" id="chart-toggle" aria-controls="chart-table" aria-expanded="false">Show as table</button>
+      </div>
+      <div class="legend" aria-hidden="true">
+        <span><i class="swatch win"></i>Won (★)</span>
+        <span><i class="swatch nom"></i>Nominated, didn't win</span>
+      </div>
+      <div id="chart" class="chart" role="img"></div>
+      <div id="chart-table" class="table-scroll" hidden></div>
+      <div id="tooltip" class="tooltip" role="presentation" hidden></div>
+      <div id="ceremony-notes" class="ceremony-notes"></div>
+    </section>
+
+    <section id="nominated" aria-labelledby="nom-h" class="section">
+      <div class="section-head">
+        <h2 id="nom-h">Oscar-nominated films</h2>
+        <div class="controls">
+          <label>Sort
+            <select id="nom-sort">
+              <option value="date">Release date</option>
+              <option value="noms">Most nominations</option>
+              <option value="wins">Most wins</option>
+              <option value="title">Title</option>
+            </select>
+          </label>
+          <label class="check"><input type="checkbox" id="nom-winners"> Winners only</label>
+        </div>
+      </div>
+      <div id="nom-grid" class="grid"></div>
+    </section>
+
+    <section id="categories" aria-labelledby="cat-h" class="section">
+      <h2 id="cat-h">Nominations by category</h2>
+      <p class="section-sub">How often A24 films have been nominated in each category, and how many of those nominations won.</p>
+      <div id="cat-list" class="cat-list"></div>
+    </section>
+
+    <section id="films" aria-labelledby="films-h" class="section">
+      <div class="section-head">
+        <h2 id="films-h">All A24 releases</h2>
+      </div>
+      <div class="filters">
+        <label class="grow">Search
+          <input type="search" id="f-search" placeholder="Title or director" autocomplete="off">
+        </label>
+        <label>Status
+          <select id="f-status"><option value="">All</option></select>
+        </label>
+        <label>Year
+          <select id="f-year"><option value="">All</option></select>
+        </label>
+        <label>Role
+          <select id="f-role">
+            <option value="">All</option>
+            <option value="produced">A24 produced</option>
+            <option value="distribution">Distribution only</option>
+          </select>
+        </label>
+        <label class="check"><input type="checkbox" id="f-oscar"> Oscar-nominated</label>
+      </div>
+      <p id="f-count" class="count" aria-live="polite"></p>
+      <div class="table-scroll">
+        <table class="films">
+          <thead>
+            <tr>
+              <th scope="col"><button type="button" data-sort="title">Title</button></th>
+              <th scope="col"><button type="button" data-sort="date" aria-sort="ascending">Release</button></th>
+              <th scope="col">Director(s)</th>
+              <th scope="col">Notes</th>
+              <th scope="col" class="num"><button type="button" data-sort="noms">Oscars</button></th>
+            </tr>
+          </thead>
+          <tbody id="f-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="dev-h" class="section two-col">
+      <div>
+        <h2 id="dev-h">In development</h2>
+        <p class="section-sub">Titles on A24's development list with no release date yet.</p>
+        <ul id="dev-list" class="pill-list"></ul>
+      </div>
+      <div>
+        <h2 id="other-h">Television and podcasts</h2>
+        <p class="section-sub">Other A24 media named on the source pages. These aren't eligible for Oscars.</p>
+        <ul id="other-list" class="plain-list"></ul>
+      </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-h" class="section about">
+      <h2 id="about-h">About the data</h2>
+      <div id="about-body"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>An unofficial fan project, not affiliated with A24 or the Academy of Motion Picture Arts and Sciences. Data comes from <code>JSON Artifact</code> in this repository.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
