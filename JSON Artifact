@@ -1,0 +1,5761 @@
+{
+  "metadata": {
+    "description": "A24 media tracker: films (with Oscar nomination tracking), plus TV/podcast items noted on the source pages.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/List_of_A24_films",
+      "https://en.wikipedia.org/wiki/A24"
+    ],
+    "retrieved": "2026-11-01",
+    "status_as_of": "2026-11-01",
+    "status_values": {
+      "released": "release date on or before 2026-11-01",
+      "upcoming_dated": "has a specific future release date",
+      "announced_year_only": "slated for a year but no date yet",
+      "announced_tba": "announced, no year",
+      "in_development_no_date": "on the 'in development' list with no date"
+    },
+    "release_date_note": "Dates are limited/wide U.S. theatrical release by A24, not necessarily premiere (per Wikipedia footnote).",
+    "oscars_schema": {
+      "status": "not_yet_researched | partial_from_a24_wikipedia_page | complete (every nomination itemised) | complete_unverified (itemised, some entries from assistant recall) | verified (checked against the Academy's ceremony page)",
+      "nominations_total": "int or null when unknown",
+      "wins_total": "int or null when unknown",
+      "nominations": "[{ceremony, category, nominee, won, basis}] ; won=null means not stated; category=null means the nomination exists but its category is not recorded",
+      "caveat": "Only what the A24 article's Accolades section states was added. Nominations that the article does not itemise are absent, so a film's list can be shorter than nominations_total.",
+      "basis": "stated = written in the A24 article; inferred = follows from the article's totals (see the film's notes)",
+      "source": "where each nomination came from"
+    },
+    "studio_oscar_totals_per_a24_article": {
+      "as_of": "98th Academy Awards",
+      "nominations": 98,
+      "wins": 21
+    },
+    "oscar_details_source": "https://en.wikipedia.org/wiki/A24#Accolades",
+    "ceremonies": [
+      {
+        "ceremony": "88th (2016)",
+        "wins": 3,
+        "detail": "Room (Best Actress), Amy (Best Documentary Feature Film), Ex Machina (Best Visual Effects)"
+      },
+      {
+        "ceremony": "89th (2017)",
+        "wins": 3,
+        "detail": "Moonlight: Best Picture (A24's first), Best Adapted Screenplay, Best Supporting Actor; 8 nominations"
+      },
+      {
+        "ceremony": "93rd (2021)",
+        "wins": 1,
+        "detail": "Minari: Best Supporting Actress (Yuh-jung Youn)"
+      },
+      {
+        "ceremony": "95th (2023)",
+        "nominations": 18,
+        "wins": 9,
+        "detail": "Most nominated single studio; 18 nominations across six films; first independent studio to win Best Picture, Best Director and all four acting categories in one year"
+      },
+      {
+        "ceremony": "96th (2024)",
+        "wins": 2,
+        "detail": "First year with two Best Picture nominees (Past Lives, The Zone of Interest); Zone won International Feature and Sound"
+      },
+      {
+        "ceremony": "97th (2025)",
+        "wins": 3,
+        "detail": "The Brutalist: 10 nominations; won Best Actor, Best Original Score, Best Cinematography"
+      },
+      {
+        "ceremony": "98th (2026)",
+        "nominations": 11,
+        "wins": null,
+        "detail": "Three films nominated: Marty Supreme (9), If I Had Legs I'd Kick You (1), The Smashing Machine (1). The article lists no wins."
+      }
+    ],
+    "oscar_nominee_list_source": "https://www.gmanetwork.com/news/showbiz/showbizabroad/858504/nominations-for-the-95th-academy-awards/story",
+    "oscar_details_sources": [
+      "A24 article (Accolades) https://en.wikipedia.org/wiki/A24#Accolades",
+      "GMA News 95th nominations list https://www.gmanetwork.com/news/showbiz/showbizabroad/858504/nominations-for-the-95th-academy-awards/story",
+      "Collider, \"Every A24 Movie That Got Nominated for an Oscar\" (Feb 17, 2024) https://collider.com/oscar-nominated-a24-movies/",
+      "assistant recall (not checked against a fetched source)",
+      "Academy ceremony pages https://www.oscars.org/oscars/ceremonies/{year}, 2016 through 2026 (all eleven ceremonies from the 88th to the 98th)"
+    ],
+    "itemised_nominations_by_ceremony": {
+      "88th (2016)": 7,
+      "89th (2017)": 10,
+      "90th (2018)": 7,
+      "91st (2019)": 1,
+      "92nd (2020)": 1,
+      "93rd (2021)": 6,
+      "94th (2022)": 3,
+      "95th (2023)": 18,
+      "96th (2024)": 7,
+      "97th (2025)": 14,
+      "98th (2026)": 11
+    },
+    "tally_note": "All 85 itemised nominations are checked against the Academy's ceremony pages for the 88th to 98th ceremonies, and no A24 film I could identify on those pages has an unlisted nomination. The A24 article states 98, so a 13-nomination difference remains unexplained. The article's counting method is not given; possible causes are that it counts nominees rather than categories, includes films not recognised here as A24, or is simply inaccurate. For comparison, Collider (Feb 2024) gave 55 through the 96th ceremony, against 60 itemised here.",
+    "verified_against_oscars_org": [
+      "88th (2016)",
+      "89th (2017)",
+      "90th (2018)",
+      "91st (2019)",
+      "92nd (2020)",
+      "93rd (2021)",
+      "94th (2022)",
+      "95th (2023)",
+      "96th (2024)",
+      "97th (2025)",
+      "98th (2026)"
+    ]
+  },
+  "films": [
+    {
+      "id": "a-glimpse-inside-the-mind-of-charles-swan-iii-2013",
+      "title": "A Glimpse Inside the Mind of Charles Swan III",
+      "media_type": "film",
+      "release_date": "2013-02-08",
+      "release_year": 2013,
+      "status": "released",
+      "directors": "Roman Coppola",
+      "notes": "U.S. co-distribution with FilmBuff only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "spring-breakers-2013",
+      "title": "Spring Breakers",
+      "media_type": "film",
+      "release_date": "2013-03-15",
+      "release_year": 2013,
+      "status": "released",
+      "directors": "Harmony Korine",
+      "notes": "U.S. co-distribution with Annapurna Pictures only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "ginger-rosa-2013",
+      "title": "Ginger & Rosa",
+      "media_type": "film",
+      "release_date": "2013-03-15",
+      "release_year": 2013,
+      "status": "released",
+      "directors": "Sally Potter",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-bling-ring-2013",
+      "title": "The Bling Ring",
+      "media_type": "film",
+      "release_date": "2013-06-14",
+      "release_year": 2013,
+      "status": "released",
+      "directors": "Sofia Coppola",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-spectacular-now-2013",
+      "title": "The Spectacular Now",
+      "media_type": "film",
+      "release_date": "2013-08-02",
+      "release_year": 2013,
+      "status": "released",
+      "directors": "James Ponsoldt",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "enemy-2014",
+      "title": "Enemy",
+      "media_type": "film",
+      "release_date": "2014-03-14",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "Denis Villeneuve",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "under-the-skin-2014",
+      "title": "Under the Skin",
+      "media_type": "film",
+      "release_date": "2014-04-04",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "Jonathan Glazer",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "locke-2014",
+      "title": "Locke",
+      "media_type": "film",
+      "release_date": "2014-04-25",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "Steven Knight",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "obvious-child-2014",
+      "title": "Obvious Child",
+      "media_type": "film",
+      "release_date": "2014-06-06",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "Gillian Robespierre",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-rover-2014",
+      "title": "The Rover",
+      "media_type": "film",
+      "release_date": "2014-06-13",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "David Michôd",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "life-after-beth-2014",
+      "title": "Life After Beth",
+      "media_type": "film",
+      "release_date": "2014-08-15",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "Jeff Baena",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "tusk-2014",
+      "title": "Tusk",
+      "media_type": "film",
+      "release_date": "2014-09-19",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "Kevin Smith",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "laggies-2014",
+      "title": "Laggies",
+      "media_type": "film",
+      "release_date": "2014-10-24",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "Lynn Shelton",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "revenge-of-the-green-dragons-2014",
+      "title": "Revenge of the Green Dragons",
+      "media_type": "film",
+      "release_date": "2014-10-24",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "Andrew Lau and Andrew Loo",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-captive-2014",
+      "title": "The Captive",
+      "media_type": "film",
+      "release_date": "2014-12-12",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "Atom Egoyan",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "a-most-violent-year-2014",
+      "title": "A Most Violent Year",
+      "media_type": "film",
+      "release_date": "2014-12-31",
+      "release_year": 2014,
+      "status": "released",
+      "directors": "J. C. Chandor",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "son-of-a-gun-2015",
+      "title": "Son of a Gun",
+      "media_type": "film",
+      "release_date": "2015-01-16",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "Julius Avery",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "while-we-re-young-2015",
+      "title": "While We're Young",
+      "media_type": "film",
+      "release_date": "2015-03-27",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "Noah Baumbach",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "cut-bank-2015",
+      "title": "Cut Bank",
+      "media_type": "film",
+      "release_date": "2015-04-03",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "Matt Shakman",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "ex-machina-2015",
+      "title": "Ex Machina",
+      "media_type": "film",
+      "release_date": "2015-04-10",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "Alex Garland",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 2,
+        "wins_total": 1,
+        "nominations": [
+          {
+            "ceremony": "88th (2016)",
+            "category": "Best Visual Effects",
+            "nominee": "Andrew Whitehurst, Paul Norris, Mark Ardington and Sara Bennett",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2016), 88th"
+          },
+          {
+            "ceremony": "88th (2016)",
+            "category": "Best Original Screenplay",
+            "nominee": "Alex Garland",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2016), 88th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 2 nominations (Visual Effects, which won, and Original Screenplay)."
+        ]
+      }
+    },
+    {
+      "id": "slow-west-2015",
+      "title": "Slow West",
+      "media_type": "film",
+      "release_date": "2015-05-15",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "John Maclean",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "barely-lethal-2015",
+      "title": "Barely Lethal",
+      "media_type": "film",
+      "release_date": "2015-05-29",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "Kyle Newman",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "amy-2015",
+      "title": "Amy",
+      "media_type": "film",
+      "release_date": "2015-07-03",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "Asif Kapadia",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 1,
+        "nominations": [
+          {
+            "ceremony": "88th (2016)",
+            "category": "Best Documentary Feature Film",
+            "nominee": "Asif Kapadia and James Gay-Rees",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2016), 88th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination; won Best Documentary Feature."
+        ]
+      }
+    },
+    {
+      "id": "the-end-of-the-tour-2015",
+      "title": "The End of the Tour",
+      "media_type": "film",
+      "release_date": "2015-07-31",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "James Ponsoldt",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dark-places-2015",
+      "title": "Dark Places",
+      "media_type": "film",
+      "release_date": "2015-08-07",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "Gilles Paquet-Brenner",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "mississippi-grind-2015",
+      "title": "Mississippi Grind",
+      "media_type": "film",
+      "release_date": "2015-09-25",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "Anna Boden and Ryan Fleck",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "room-2015",
+      "title": "Room",
+      "media_type": "film",
+      "release_date": "2015-10-16",
+      "release_year": 2015,
+      "status": "released",
+      "directors": "Lenny Abrahamson",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 4,
+        "wins_total": 1,
+        "nominations": [
+          {
+            "ceremony": "88th (2016)",
+            "category": "Best Actress",
+            "nominee": "Brie Larson",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2016), 88th"
+          },
+          {
+            "ceremony": "88th (2016)",
+            "category": "Best Picture",
+            "nominee": "Ed Guiney",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2016), 88th"
+          },
+          {
+            "ceremony": "88th (2016)",
+            "category": "Best Director",
+            "nominee": "Lenny Abrahamson",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2016), 88th"
+          },
+          {
+            "ceremony": "88th (2016)",
+            "category": "Best Adapted Screenplay",
+            "nominee": "Emma Donoghue",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2016), 88th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 4 nominations (Best Picture, Director, Actress, Adapted Screenplay); only Brie Larson's Best Actress won."
+        ]
+      }
+    },
+    {
+      "id": "mojave-2016",
+      "title": "Mojave",
+      "media_type": "film",
+      "release_date": "2016-01-22",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "William Monahan",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-witch-2016",
+      "title": "The Witch",
+      "media_type": "film",
+      "release_date": "2016-02-19",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Robert Eggers",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "remember-2016",
+      "title": "Remember",
+      "media_type": "film",
+      "release_date": "2016-03-11",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Atom Egoyan",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "krisha-2016",
+      "title": "Krisha",
+      "media_type": "film",
+      "release_date": "2016-03-18",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Trey Edward Shults",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "green-room-2016",
+      "title": "Green Room",
+      "media_type": "film",
+      "release_date": "2016-04-15",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Jeremy Saulnier",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-adderall-diaries-2016",
+      "title": "The Adderall Diaries",
+      "media_type": "film",
+      "release_date": "2016-04-15",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Pamela Romanowsky",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-lobster-2016",
+      "title": "The Lobster",
+      "media_type": "film",
+      "release_date": "2016-05-13",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Yorgos Lanthimos",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "89th (2017)",
+            "category": "Best Original Screenplay",
+            "nominee": "Yorgos Lanthimos and Efthimis Filippou",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2017), 89th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Original Screenplay); did not win."
+        ]
+      }
+    },
+    {
+      "id": "de-palma-2016",
+      "title": "De Palma",
+      "media_type": "film",
+      "release_date": "2016-06-10",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Noah Baumbach and Jake Paltrow",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "swiss-army-man-2016",
+      "title": "Swiss Army Man",
+      "media_type": "film",
+      "release_date": "2016-06-24",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Dan Kwan and Daniel Scheinert",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "equals-2016",
+      "title": "Equals",
+      "media_type": "film",
+      "release_date": "2016-07-15",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Drake Doremus",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "into-the-forest-2016",
+      "title": "Into the Forest",
+      "media_type": "film",
+      "release_date": "2016-07-29",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Patricia Rozema",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "morris-from-america-2016",
+      "title": "Morris from America",
+      "media_type": "film",
+      "release_date": "2016-08-19",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Chad Hartigan",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-sea-of-trees-2016",
+      "title": "The Sea of Trees",
+      "media_type": "film",
+      "release_date": "2016-08-26",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Gus Van Sant",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "american-honey-2016",
+      "title": "American Honey",
+      "media_type": "film",
+      "release_date": "2016-09-30",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Andrea Arnold",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "moonlight-2016",
+      "title": "Moonlight",
+      "media_type": "film",
+      "release_date": "2016-10-21",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Barry Jenkins",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 8,
+        "wins_total": 3,
+        "nominations": [
+          {
+            "ceremony": "89th (2017)",
+            "category": "Best Picture",
+            "nominee": "Adele Romanski, Dede Gardner and Jeremy Kleiner",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2017), 89th"
+          },
+          {
+            "ceremony": "89th (2017)",
+            "category": "Best Adapted Screenplay",
+            "nominee": "Barry Jenkins (screenplay) and Tarell Alvin McCraney (story)",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2017), 89th"
+          },
+          {
+            "ceremony": "89th (2017)",
+            "category": "Best Supporting Actor",
+            "nominee": "Mahershala Ali",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2017), 89th"
+          },
+          {
+            "ceremony": "89th (2017)",
+            "category": "Best Director",
+            "nominee": "Barry Jenkins",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2017), 89th"
+          },
+          {
+            "ceremony": "89th (2017)",
+            "category": "Best Supporting Actress",
+            "nominee": "Naomie Harris",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2017), 89th"
+          },
+          {
+            "ceremony": "89th (2017)",
+            "category": "Best Film Editing",
+            "nominee": "Nat Sanders and Joi McMillon",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2017), 89th"
+          },
+          {
+            "ceremony": "89th (2017)",
+            "category": "Best Cinematography",
+            "nominee": "James Laxton",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2017), 89th"
+          },
+          {
+            "ceremony": "89th (2017)",
+            "category": "Best Original Score",
+            "nominee": "Nicholas Britell",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2017), 89th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 8 nominations; won Best Picture (A24's first), Best Adapted Screenplay and Best Supporting Actor."
+        ]
+      }
+    },
+    {
+      "id": "oasis-supersonic-2016",
+      "title": "Oasis: Supersonic",
+      "media_type": "film",
+      "release_date": "2016-10-26",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Mat Whitecross",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-monster-2016",
+      "title": "The Monster",
+      "media_type": "film",
+      "release_date": "2016-11-11",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Bryan Bertino",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "20th-century-women-2016",
+      "title": "20th Century Women",
+      "media_type": "film",
+      "release_date": "2016-12-28",
+      "release_year": 2016,
+      "status": "released",
+      "directors": "Mike Mills",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "89th (2017)",
+            "category": "Best Original Screenplay",
+            "nominee": "Mike Mills",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2017), 89th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Original Screenplay); did not win."
+        ]
+      }
+    },
+    {
+      "id": "trespass-against-us-2017",
+      "title": "Trespass Against Us",
+      "media_type": "film",
+      "release_date": "2017-01-20",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Adam Smith",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-blackcoat-s-daughter-2017",
+      "title": "The Blackcoat's Daughter",
+      "media_type": "film",
+      "release_date": "2017-03-31",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Oz Perkins",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "free-fire-2017",
+      "title": "Free Fire",
+      "media_type": "film",
+      "release_date": "2017-04-21",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Ben Wheatley",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-lovers-2017",
+      "title": "The Lovers",
+      "media_type": "film",
+      "release_date": "2017-05-05",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Azazel Jacobs",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-exception-2017",
+      "title": "The Exception",
+      "media_type": "film",
+      "release_date": "2017-06-02",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "David Leveaux",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "it-comes-at-night-2017",
+      "title": "It Comes at Night",
+      "media_type": "film",
+      "release_date": "2017-06-16",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Trey Edward Shults",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "a-ghost-story-2017",
+      "title": "A Ghost Story",
+      "media_type": "film",
+      "release_date": "2017-07-07",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "David Lowery",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "menashe-2017",
+      "title": "Menashe",
+      "media_type": "film",
+      "release_date": "2017-07-28",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Joshua Z Weinstein",
+      "notes": "U.S. and Chinese distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "good-time-2017",
+      "title": "Good Time",
+      "media_type": "film",
+      "release_date": "2017-08-11",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Safdie brothers",
+      "notes": "North American, U.K. and Irish distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "woodshock-2017",
+      "title": "Woodshock",
+      "media_type": "film",
+      "release_date": "2017-09-22",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Kate and Laura Mulleavy",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-florida-project-2017",
+      "title": "The Florida Project",
+      "media_type": "film",
+      "release_date": "2017-10-06",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Sean Baker",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "90th (2018)",
+            "category": "Best Supporting Actor",
+            "nominee": "Willem Dafoe",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2018), 90th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Supporting Actor, Willem Dafoe); did not win."
+        ]
+      }
+    },
+    {
+      "id": "the-killing-of-a-sacred-deer-2017",
+      "title": "The Killing of a Sacred Deer",
+      "media_type": "film",
+      "release_date": "2017-10-20",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Yorgos Lanthimos",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "lady-bird-2017",
+      "title": "Lady Bird",
+      "media_type": "film",
+      "release_date": "2017-11-03",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Greta Gerwig",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 5,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "90th (2018)",
+            "category": "Best Picture",
+            "nominee": "Scott Rudin, Eli Bush and Evelyn O'Neill",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2018), 90th"
+          },
+          {
+            "ceremony": "90th (2018)",
+            "category": "Best Director",
+            "nominee": "Greta Gerwig",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2018), 90th"
+          },
+          {
+            "ceremony": "90th (2018)",
+            "category": "Best Actress",
+            "nominee": "Saoirse Ronan",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2018), 90th"
+          },
+          {
+            "ceremony": "90th (2018)",
+            "category": "Best Supporting Actress",
+            "nominee": "Laurie Metcalf",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2018), 90th"
+          },
+          {
+            "ceremony": "90th (2018)",
+            "category": "Best Original Screenplay",
+            "nominee": "Greta Gerwig",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2018), 90th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 5 nominations, no wins."
+        ]
+      }
+    },
+    {
+      "id": "the-disaster-artist-2017",
+      "title": "The Disaster Artist",
+      "media_type": "film",
+      "release_date": "2017-12-01",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "James Franco",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "90th (2018)",
+            "category": "Best Adapted Screenplay",
+            "nominee": "Scott Neustadter and Michael H. Weber",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2018), 90th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Adapted Screenplay); did not win."
+        ]
+      }
+    },
+    {
+      "id": "the-ballad-of-lefty-brown-2017",
+      "title": "The Ballad of Lefty Brown",
+      "media_type": "film",
+      "release_date": "2017-12-15",
+      "release_year": 2017,
+      "status": "released",
+      "directors": "Jared Moshe",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-vanishing-of-sidney-hall-2018",
+      "title": "The Vanishing of Sidney Hall",
+      "media_type": "film",
+      "release_date": "2018-03-02",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Shawn Christensen",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-last-movie-star-2018",
+      "title": "The Last Movie Star",
+      "media_type": "film",
+      "release_date": "2018-03-30",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Adam Rifkin",
+      "notes": "North American co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "lean-on-pete-2018",
+      "title": "Lean on Pete",
+      "media_type": "film",
+      "release_date": "2018-04-06",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Andrew Haigh",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "backstabbing-for-beginners-2018",
+      "title": "Backstabbing for Beginners",
+      "media_type": "film",
+      "release_date": "2018-04-27",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Per Fly",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "first-reformed-2018",
+      "title": "First Reformed",
+      "media_type": "film",
+      "release_date": "2018-05-18",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Paul Schrader",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "91st (2019)",
+            "category": "Best Original Screenplay",
+            "nominee": "Paul Schrader",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2019), 91st"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Original Screenplay, Paul Schrader); did not win."
+        ]
+      }
+    },
+    {
+      "id": "how-to-talk-to-girls-at-parties-2018",
+      "title": "How to Talk to Girls at Parties",
+      "media_type": "film",
+      "release_date": "2018-05-25",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "John Cameron Mitchell",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "hereditary-2018",
+      "title": "Hereditary",
+      "media_type": "film",
+      "release_date": "2018-06-08",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Ari Aster",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "woman-walks-ahead-2018",
+      "title": "Woman Walks Ahead",
+      "media_type": "film",
+      "release_date": "2018-06-29",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Susanna White",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "eighth-grade-2018",
+      "title": "Eighth Grade",
+      "media_type": "film",
+      "release_date": "2018-07-13",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Bo Burnham",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "hot-summer-nights-2018",
+      "title": "Hot Summer Nights",
+      "media_type": "film",
+      "release_date": "2018-07-27",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Elijah Bynum",
+      "notes": "co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "never-goin-back-2018",
+      "title": "Never Goin' Back",
+      "media_type": "film",
+      "release_date": "2018-08-03",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Augustine Frizzell",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "a-prayer-before-dawn-2018",
+      "title": "A Prayer Before Dawn",
+      "media_type": "film",
+      "release_date": "2018-08-10",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Jean-Stéphane Sauvaire",
+      "notes": "North American co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "slice-2018",
+      "title": "Slice",
+      "media_type": "film",
+      "release_date": "2018-09-10",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Austin Vesely",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-children-act-2018",
+      "title": "The Children Act",
+      "media_type": "film",
+      "release_date": "2018-09-14",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Richard Eyre",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "mid90s-2018",
+      "title": "Mid90s",
+      "media_type": "film",
+      "release_date": "2018-10-19",
+      "release_year": 2018,
+      "status": "released",
+      "directors": "Jonah Hill",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "outlaws-2019",
+      "title": "Outlaws",
+      "media_type": "film",
+      "release_date": "2019-02-01",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Stephen McCallum",
+      "notes": "North American co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-hole-in-the-ground-2019",
+      "title": "The Hole in the Ground",
+      "media_type": "film",
+      "release_date": "2019-03-01",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Lee Cronin",
+      "notes": "North American co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "climax-2019",
+      "title": "Climax",
+      "media_type": "film",
+      "release_date": "2019-03-01",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Gaspar Noé",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "gloria-bell-2019",
+      "title": "Gloria Bell",
+      "media_type": "film",
+      "release_date": "2019-03-08",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Sebastián Lelio",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "high-life-2019",
+      "title": "High Life",
+      "media_type": "film",
+      "release_date": "2019-04-05",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Claire Denis",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "native-son-2019",
+      "title": "Native Son",
+      "media_type": "film",
+      "release_date": "2019-04-06",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Rashid Johnson",
+      "notes": "Also produced by A24; distributed by HBO Films",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "under-the-silver-lake-2019",
+      "title": "Under the Silver Lake",
+      "media_type": "film",
+      "release_date": "2019-04-19",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "David Robert Mitchell",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-souvenir-2019",
+      "title": "The Souvenir",
+      "media_type": "film",
+      "release_date": "2019-05-17",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Joanna Hogg",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-last-black-man-in-san-francisco-2019",
+      "title": "The Last Black Man in San Francisco",
+      "media_type": "film",
+      "release_date": "2019-06-07",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Joe Talbot",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "midsommar-2019",
+      "title": "Midsommar",
+      "media_type": "film",
+      "release_date": "2019-07-03",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Ari Aster",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-farewell-2019",
+      "title": "The Farewell",
+      "media_type": "film",
+      "release_date": "2019-07-12",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Lulu Wang",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "skin-2019",
+      "title": "Skin",
+      "media_type": "film",
+      "release_date": "2019-07-26",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Guy Nattiv",
+      "notes": "North American co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "share-2019",
+      "title": "Share",
+      "media_type": "film",
+      "release_date": "2019-07-27",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Pippa Bianco",
+      "notes": "Also produced by A24; distributed by HBO Films",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-death-of-dick-long-2019",
+      "title": "The Death of Dick Long",
+      "media_type": "film",
+      "release_date": "2019-09-27",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Daniel Scheinert",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "low-tide-2019",
+      "title": "Low Tide",
+      "media_type": "film",
+      "release_date": "2019-10-04",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Kevin McMullin",
+      "notes": "U.S. co-distribution with DirecTV only",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-lighthouse-2019",
+      "title": "The Lighthouse",
+      "media_type": "film",
+      "release_date": "2019-10-18",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Robert Eggers",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "92nd (2020)",
+            "category": "Best Cinematography",
+            "nominee": "Jarin Blaschke",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2020), 92nd"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Cinematography, Jarin Blaschke); did not win."
+        ]
+      }
+    },
+    {
+      "id": "the-elephant-queen-2019",
+      "title": "The Elephant Queen",
+      "media_type": "film",
+      "release_date": "2019-10-18",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Victoria Stone and Mark Deeble",
+      "notes": "Co-distributed with Apple TV+",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-kill-team-2019",
+      "title": "The Kill Team",
+      "media_type": "film",
+      "release_date": "2019-10-25",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Dan Krauss",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "waves-2019",
+      "title": "Waves",
+      "media_type": "film",
+      "release_date": "2019-11-15",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Trey Edward Shults",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "in-fabric-2019",
+      "title": "In Fabric",
+      "media_type": "film",
+      "release_date": "2019-12-06",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Peter Strickland",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "uncut-gems-2019",
+      "title": "Uncut Gems",
+      "media_type": "film",
+      "release_date": "2019-12-13",
+      "release_year": 2019,
+      "status": "released",
+      "directors": "Safdie brothers",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "first-cow-2020",
+      "title": "First Cow",
+      "media_type": "film",
+      "release_date": "2020-03-06",
+      "release_year": 2020,
+      "status": "released",
+      "directors": "Kelly Reichardt",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "boys-state-2020",
+      "title": "Boys State",
+      "media_type": "film",
+      "release_date": "2020-08-14",
+      "release_year": 2020,
+      "status": "released",
+      "directors": "Jesse Moss and Amanda McBaine",
+      "notes": "Co-distributed with Apple TV+",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "on-the-rocks-2020",
+      "title": "On the Rocks",
+      "media_type": "film",
+      "release_date": "2020-10-02",
+      "release_year": 2020,
+      "status": "released",
+      "directors": "Sofia Coppola",
+      "notes": "Co-distributed with Apple TV+",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "saint-maud-2021",
+      "title": "Saint Maud",
+      "media_type": "film",
+      "release_date": "2021-01-29",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "Rose Glass",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "minari-2021",
+      "title": "Minari",
+      "media_type": "film",
+      "release_date": "2021-02-12",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "Lee Isaac Chung",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 6,
+        "wins_total": 1,
+        "nominations": [
+          {
+            "ceremony": "93rd (2021)",
+            "category": "Best Supporting Actress",
+            "nominee": "Yuh-jung Youn",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2021), 93rd"
+          },
+          {
+            "ceremony": "93rd (2021)",
+            "category": "Best Picture",
+            "nominee": "Christina Oh",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2021), 93rd"
+          },
+          {
+            "ceremony": "93rd (2021)",
+            "category": "Best Director",
+            "nominee": "Lee Isaac Chung",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2021), 93rd"
+          },
+          {
+            "ceremony": "93rd (2021)",
+            "category": "Best Actor",
+            "nominee": "Steven Yeun",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2021), 93rd"
+          },
+          {
+            "ceremony": "93rd (2021)",
+            "category": "Best Original Screenplay",
+            "nominee": "Lee Isaac Chung",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2021), 93rd"
+          },
+          {
+            "ceremony": "93rd (2021)",
+            "category": "Best Original Score",
+            "nominee": "Emile Mosseri",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2021), 93rd"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 6 nominations; Yuh-jung Youn's Best Supporting Actress is the only win. She became the first Korean actress to win an acting Oscar, per the A24 article."
+        ]
+      }
+    },
+    {
+      "id": "false-positive-2021",
+      "title": "False Positive",
+      "media_type": "film",
+      "release_date": "2021-06-25",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "John Lee",
+      "notes": "Produced by A24; distributed by Hulu",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "zola-2021",
+      "title": "Zola",
+      "media_type": "film",
+      "release_date": "2021-06-30",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "Janicza Bravo",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "val-2021",
+      "title": "Val",
+      "media_type": "film",
+      "release_date": "2021-07-23",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "Leo Scott and Ting Poo",
+      "notes": "Produced by A24; distributed by Amazon Studios",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-green-knight-2021",
+      "title": "The Green Knight",
+      "media_type": "film",
+      "release_date": "2021-07-30",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "David Lowery",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "lamb-2021",
+      "title": "Lamb",
+      "media_type": "film",
+      "release_date": "2021-10-08",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "Valdimar Jóhannsson",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-souvenir-part-ii-2021",
+      "title": "The Souvenir Part II",
+      "media_type": "film",
+      "release_date": "2021-10-29",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "Joanna Hogg",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "c-mon-c-mon-2021",
+      "title": "C'mon C'mon",
+      "media_type": "film",
+      "release_date": "2021-11-19",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "Mike Mills",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-humans-2021",
+      "title": "The Humans",
+      "media_type": "film",
+      "release_date": "2021-11-24",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "Stephen Karam",
+      "notes": "Also produced by A24; co-distributed with Showtime",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "red-rocket-2021",
+      "title": "Red Rocket",
+      "media_type": "film",
+      "release_date": "2021-12-10",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "Sean Baker",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-tragedy-of-macbeth-2021",
+      "title": "The Tragedy of Macbeth",
+      "media_type": "film",
+      "release_date": "2021-12-25",
+      "release_year": 2021,
+      "status": "released",
+      "directors": "Joel Coen",
+      "notes": "Also produced by A24; co-distributed with Apple TV+",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 3,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "94th (2022)",
+            "category": "Best Actor",
+            "nominee": "Denzel Washington",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2022), 94th"
+          },
+          {
+            "ceremony": "94th (2022)",
+            "category": "Best Cinematography",
+            "nominee": "Bruno Delbonnel",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2022), 94th"
+          },
+          {
+            "ceremony": "94th (2022)",
+            "category": "Best Production Design",
+            "nominee": "Stefan Dechant (production design) and Nancy Haigh (set decoration)",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2022), 94th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 3 nominations (Best Actor, Cinematography, Production Design); no wins. A24 theatrical release with Apple, so the A24 article's overall tally may or may not count it."
+        ]
+      }
+    },
+    {
+      "id": "the-sky-is-everywhere-2022",
+      "title": "The Sky Is Everywhere",
+      "media_type": "film",
+      "release_date": "2022-02-11",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Josephine Decker",
+      "notes": "Co-distributed with Apple TV+",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "after-yang-2022",
+      "title": "After Yang",
+      "media_type": "film",
+      "release_date": "2022-03-04",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Kogonada",
+      "notes": "Also produced by A24; co-distributed with Showtime",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "x-2022",
+      "title": "X",
+      "media_type": "film",
+      "release_date": "2022-03-18",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Ti West",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "everything-everywhere-all-at-once-2022",
+      "title": "Everything Everywhere All at Once",
+      "media_type": "film",
+      "release_date": "2022-03-25",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Dan Kwan and Daniel Scheinert",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 11,
+        "wins_total": 7,
+        "nominations": [
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Picture",
+            "nominee": "Daniel Kwan, Daniel Scheinert and Jonathan Wang",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Director",
+            "nominee": "Daniel Kwan and Daniel Scheinert",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Actress",
+            "nominee": "Michelle Yeoh",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Supporting Actor",
+            "nominee": "Ke Huy Quan",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Supporting Actress",
+            "nominee": "Jamie Lee Curtis",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Original Screenplay",
+            "nominee": "Daniel Kwan and Daniel Scheinert",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Film Editing",
+            "nominee": "Paul Rogers",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Supporting Actress",
+            "nominee": "Stephanie Hsu",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Costume Design",
+            "nominee": "Shirley Kurata",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Original Score",
+            "nominee": "Son Lux",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Original Song",
+            "nominee": "\"This Is A Life\" (Ryan Lott, David Byrne and Mitski)",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 11 nominations, the most of any film that year; won 7, including Best Picture, Director, Actress, Supporting Actor, Supporting Actress, Original Screenplay and Film Editing. With The Whale, A24 became the first independent studio to win Best Picture, Best Director and all four acting categories in one year, per the A24 article."
+        ]
+      }
+    },
+    {
+      "id": "men-2022",
+      "title": "Men",
+      "media_type": "film",
+      "release_date": "2022-05-20",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Alex Garland",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "elizabeth-a-portrait-in-parts-2022",
+      "title": "Elizabeth: A Portrait in Parts",
+      "media_type": "film",
+      "release_date": "2022-05-27",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Roger Michell",
+      "notes": "Distributed by Showtime",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "marcel-the-shell-with-shoes-on-2022",
+      "title": "Marcel the Shell with Shoes On",
+      "media_type": "film",
+      "release_date": "2022-06-24",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Dean Fleischer Camp",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Animated Feature",
+            "nominee": "Dean Fleischer Camp, Elisabeth Holm, Andrew Goldman, Caroline Kaplan and Paul Mezey",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Animated Feature); did not win."
+        ]
+      }
+    },
+    {
+      "id": "bodies-bodies-bodies-2022",
+      "title": "Bodies Bodies Bodies",
+      "media_type": "film",
+      "release_date": "2022-08-05",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Halina Reijn",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "funny-pages-2022",
+      "title": "Funny Pages",
+      "media_type": "film",
+      "release_date": "2022-08-26",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Owen Kline",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "pearl-2022",
+      "title": "Pearl",
+      "media_type": "film",
+      "release_date": "2022-09-16",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Ti West",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "instinct-2022",
+      "title": "Instinct",
+      "media_type": "film",
+      "release_date": "2022-09-22",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Halina Reijn",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "god-s-creatures-2022",
+      "title": "God's Creatures",
+      "media_type": "film",
+      "release_date": "2022-09-30",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Saela Davis and Anna Rose Holmer",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "stars-at-noon-2022",
+      "title": "Stars at Noon",
+      "media_type": "film",
+      "release_date": "2022-10-14",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Claire Denis",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "aftersun-2022",
+      "title": "Aftersun",
+      "media_type": "film",
+      "release_date": "2022-10-21",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Charlotte Wells",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Actor",
+            "nominee": "Paul Mescal",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Actor, Paul Mescal); did not win."
+        ]
+      }
+    },
+    {
+      "id": "causeway-2022",
+      "title": "Causeway",
+      "media_type": "film",
+      "release_date": "2022-10-28",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Lila Neugebauer",
+      "notes": "Produced by A24; co-distributed with Apple TV+",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Supporting Actor",
+            "nominee": "Brian Tyree Henry",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Supporting Actor, Brian Tyree Henry); did not win."
+        ]
+      }
+    },
+    {
+      "id": "the-inspection-2022",
+      "title": "The Inspection",
+      "media_type": "film",
+      "release_date": "2022-11-18",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Elegance Bratton",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "white-noise-2022",
+      "title": "White Noise",
+      "media_type": "film",
+      "release_date": "2022-11-25",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Noah Baumbach",
+      "notes": "Produced by A24; distributed by Netflix",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "close-2022",
+      "title": "Close",
+      "media_type": "film",
+      "release_date": "2022-12-02",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Lukas Dhont",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best International Feature Film",
+            "nominee": "Belgium",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best International Feature Film, Belgium); did not win."
+        ]
+      }
+    },
+    {
+      "id": "the-eternal-daughter-2022",
+      "title": "The Eternal Daughter",
+      "media_type": "film",
+      "release_date": "2022-12-02",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Joanna Hogg",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-whale-2022",
+      "title": "The Whale",
+      "media_type": "film",
+      "release_date": "2022-12-09",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Darren Aronofsky",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 3,
+        "wins_total": 2,
+        "nominations": [
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Actor",
+            "nominee": "Brendan Fraser",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Makeup and Hairstyling",
+            "nominee": "Adrien Morot, Judy Chin, Annemarie Bradley",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          },
+          {
+            "ceremony": "95th (2023)",
+            "category": "Best Supporting Actress",
+            "nominee": "Hong Chau",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2023), 95th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 3 nominations; won Best Actor and Best Makeup and Hairstyling; Hong Chau's Best Supporting Actress nomination did not win."
+        ]
+      }
+    },
+    {
+      "id": "this-place-rules-2022",
+      "title": "This Place Rules",
+      "media_type": "film",
+      "release_date": "2022-12-30",
+      "release_year": 2022,
+      "status": "released",
+      "directors": "Andrew Callaghan",
+      "notes": "Produced by A24; distributed by HBO",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "when-you-finish-saving-the-world-2023",
+      "title": "When You Finish Saving the World",
+      "media_type": "film",
+      "release_date": "2023-01-20",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Jesse Eisenberg",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "sharper-2023",
+      "title": "Sharper",
+      "media_type": "film",
+      "release_date": "2023-02-10",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Benjamin Caron",
+      "notes": "Also produced by A24; co-distributed with Apple TV+",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "pi-2023",
+      "title": "Pi",
+      "media_type": "film",
+      "release_date": "2023-03-14",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Darren Aronofsky",
+      "notes": "25th anniversary re-release",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": true,
+      "original_release_year": 1998,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "showing-up-2023",
+      "title": "Showing Up",
+      "media_type": "film",
+      "release_date": "2023-04-07",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Kelly Reichardt",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "beau-is-afraid-2023",
+      "title": "Beau Is Afraid",
+      "media_type": "film",
+      "release_date": "2023-04-14",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Ari Aster",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "you-hurt-my-feelings-2023",
+      "title": "You Hurt My Feelings",
+      "media_type": "film",
+      "release_date": "2023-05-26",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Nicole Holofcener",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "past-lives-2023",
+      "title": "Past Lives",
+      "media_type": "film",
+      "release_date": "2023-06-02",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Celine Song",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 2,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "96th (2024)",
+            "category": "Best Picture",
+            "nominee": "David Hinojosa, Christine Vachon and Pamela Koffler",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2024), 96th"
+          },
+          {
+            "ceremony": "96th (2024)",
+            "category": "Best Original Screenplay",
+            "nominee": "Celine Song",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2024), 96th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 2 nominations (Best Picture, Best Original Screenplay); no wins. First year A24 had two Best Picture nominees, per the A24 article."
+        ]
+      }
+    },
+    {
+      "id": "earth-mama-2023",
+      "title": "Earth Mama",
+      "media_type": "film",
+      "release_date": "2023-07-07",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Savanah Leaf",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-deepest-breath-2023",
+      "title": "The Deepest Breath",
+      "media_type": "film",
+      "release_date": "2023-07-19",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Laura McGann",
+      "notes": "Produced by A24; distributed by Netflix",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "stephen-curry-underrated-2023",
+      "title": "Stephen Curry: Underrated",
+      "media_type": "film",
+      "release_date": "2023-07-21",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Peter Nicks",
+      "notes": "Produced by A24; distributed by Apple TV+",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "talk-to-me-2023",
+      "title": "Talk to Me",
+      "media_type": "film",
+      "release_date": "2023-07-28",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Danny and Michael Philippou",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "medusa-deluxe-2023",
+      "title": "Medusa Deluxe",
+      "media_type": "film",
+      "release_date": "2023-08-11",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Thomas Hardiman",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "stop-making-sense-2023",
+      "title": "Stop Making Sense",
+      "media_type": "film",
+      "release_date": "2023-09-22",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Jonathan Demme",
+      "notes": "Re-release",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": true,
+      "original_release_year": 1984,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dicks-the-musical-2023",
+      "title": "Dicks: The Musical",
+      "media_type": "film",
+      "release_date": "2023-10-06",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Larry Charles",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "priscilla-2023",
+      "title": "Priscilla",
+      "media_type": "film",
+      "release_date": "2023-10-27",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Sofia Coppola",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "all-dirt-roads-taste-of-salt-2023",
+      "title": "All Dirt Roads Taste of Salt",
+      "media_type": "film",
+      "release_date": "2023-11-03",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Raven Jackson",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dream-scenario-2023",
+      "title": "Dream Scenario",
+      "media_type": "film",
+      "release_date": "2023-11-10",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Kristoffer Borgli",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-zone-of-interest-2023",
+      "title": "The Zone of Interest",
+      "media_type": "film",
+      "release_date": "2023-12-15",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Jonathan Glazer",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 5,
+        "wins_total": 2,
+        "nominations": [
+          {
+            "ceremony": "96th (2024)",
+            "category": "Best Picture",
+            "nominee": "James Wilson",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2024), 96th"
+          },
+          {
+            "ceremony": "96th (2024)",
+            "category": "Best International Feature Film",
+            "nominee": "United Kingdom",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2024), 96th"
+          },
+          {
+            "ceremony": "96th (2024)",
+            "category": "Best Sound",
+            "nominee": "Tarn Willers and Johnnie Burn",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2024), 96th"
+          },
+          {
+            "ceremony": "96th (2024)",
+            "category": "Best Director",
+            "nominee": "Jonathan Glazer",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2024), 96th"
+          },
+          {
+            "ceremony": "96th (2024)",
+            "category": "Best Adapted Screenplay",
+            "nominee": "Jonathan Glazer",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2024), 96th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 5 nominations; won Best International Feature Film (representing the United Kingdom) and Best Sound."
+        ]
+      }
+    },
+    {
+      "id": "the-iron-claw-2023",
+      "title": "The Iron Claw",
+      "media_type": "film",
+      "release_date": "2023-12-22",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Sean Durkin",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "occupied-city-2023",
+      "title": "Occupied City",
+      "media_type": "film",
+      "release_date": "2023-12-25",
+      "release_year": 2023,
+      "status": "released",
+      "directors": "Steve McQueen",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "jerry-lee-lewis-trouble-in-mind-2024",
+      "title": "Jerry Lee Lewis: Trouble in Mind",
+      "media_type": "film",
+      "release_date": "2024-01-01",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Ethan Coen",
+      "notes": "Produced by A24; distributed by Amazon Prime Video",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "my-mercury-2024",
+      "title": "My Mercury",
+      "media_type": "film",
+      "release_date": "2024-01-12",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Joelle Chesselet and Philippa Ehrlich",
+      "notes": "Produced by A24; distributed by Amazon Prime Video",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "open-wide-2024",
+      "title": "Open Wide",
+      "media_type": "film",
+      "release_date": "2024-01-23",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Sara Goldblatt",
+      "notes": "Produced by A24; distributed by Netflix",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "problemista-2024",
+      "title": "Problemista",
+      "media_type": "film",
+      "release_date": "2024-03-01",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Julio Torres",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "love-lies-bleeding-2024",
+      "title": "Love Lies Bleeding",
+      "media_type": "film",
+      "release_date": "2024-03-08",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Rose Glass",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "steve-martin-a-documentary-in-2-pieces-2024",
+      "title": "Steve! (Martin): A Documentary in 2 Pieces",
+      "media_type": "film",
+      "release_date": "2024-03-29",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Morgan Neville",
+      "notes": "Produced by A24; distributed by Apple TV+",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "civil-war-2024",
+      "title": "Civil War",
+      "media_type": "film",
+      "release_date": "2024-04-12",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Alex Garland",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "i-saw-the-tv-glow-2024",
+      "title": "I Saw the TV Glow",
+      "media_type": "film",
+      "release_date": "2024-05-03",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Jane Schoenbrun",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-sixth-2024",
+      "title": "The Sixth",
+      "media_type": "film",
+      "release_date": "2024-05-03",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Andrea Nix Fine and Sean Fine",
+      "notes": "Produced by A24; video on demand release",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "tuesday-2024",
+      "title": "Tuesday",
+      "media_type": "film",
+      "release_date": "2024-06-07",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Daina O. Pusić",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "janet-planet-2024",
+      "title": "Janet Planet",
+      "media_type": "film",
+      "release_date": "2024-06-21",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Annie Baker",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "maxxxine-2024",
+      "title": "MaXXXine",
+      "media_type": "film",
+      "release_date": "2024-07-05",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Ti West",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "sing-sing-2024",
+      "title": "Sing Sing",
+      "media_type": "film",
+      "release_date": "2024-07-12",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Greg Kwedar",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 3,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Actor",
+            "nominee": "Colman Domingo",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Adapted Screenplay",
+            "nominee": "Clint Bentley and Greg Kwedar",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Original Song",
+            "nominee": "\"Like A Bird\" (Abraham Alexander and Adrian Quesada)",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 3 nominations (Best Actor, Best Adapted Screenplay, Best Original Song); no wins."
+        ]
+      }
+    },
+    {
+      "id": "the-front-room-2024",
+      "title": "The Front Room",
+      "media_type": "film",
+      "release_date": "2024-09-06",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "The Eggers Brothers",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "look-into-my-eyes-2024",
+      "title": "Look into My Eyes",
+      "media_type": "film",
+      "release_date": "2024-09-06",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Lana Wilson",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "a-different-man-2024",
+      "title": "A Different Man",
+      "media_type": "film",
+      "release_date": "2024-09-20",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Aaron Schimberg",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Makeup and Hairstyling",
+            "nominee": "Mike Marino, David Presto and Crystal Jurado",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Makeup and Hairstyling); did not win."
+        ]
+      }
+    },
+    {
+      "id": "the-last-of-the-sea-women-2024",
+      "title": "The Last of the Sea Women",
+      "media_type": "film",
+      "release_date": "2024-10-11",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Sue Kim",
+      "notes": "Produced by A24; distributed by Apple TV+",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "we-live-in-time-2024",
+      "title": "We Live in Time",
+      "media_type": "film",
+      "release_date": "2024-10-11",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "John Crowley",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "heretic-2024",
+      "title": "Heretic",
+      "media_type": "film",
+      "release_date": "2024-11-08",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Scott Beck and Bryan Woods",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "queer-2024",
+      "title": "Queer",
+      "media_type": "film",
+      "release_date": "2024-11-27",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Luca Guadagnino",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "y2k-2024",
+      "title": "Y2K",
+      "media_type": "film",
+      "release_date": "2024-12-06",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Kyle Mooney",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-brutalist-2024",
+      "title": "The Brutalist",
+      "media_type": "film",
+      "release_date": "2024-12-20",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Brady Corbet",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 10,
+        "wins_total": 3,
+        "nominations": [
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Actor",
+            "nominee": "Adrien Brody",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Original Score",
+            "nominee": "Daniel Blumberg",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Cinematography",
+            "nominee": "Lol Crawley",
+            "won": true,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Picture",
+            "nominee": "Nick Gordon, Brian Young, Andrew Morrison, D.J. Gugenheim and Brady Corbet",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Director",
+            "nominee": "Brady Corbet",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Supporting Actor",
+            "nominee": "Guy Pearce",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Supporting Actress",
+            "nominee": "Felicity Jones",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Original Screenplay",
+            "nominee": "Brady Corbet and Mona Fastvold",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Film Editing",
+            "nominee": "David Jancso",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          },
+          {
+            "ceremony": "97th (2025)",
+            "category": "Best Production Design",
+            "nominee": "Judy Becker (production design) and Patricia Cuccia (set decoration)",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2025), 97th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 10 nominations; won Best Actor, Best Cinematography and Best Original Score."
+        ]
+      }
+    },
+    {
+      "id": "babygirl-2024",
+      "title": "Babygirl",
+      "media_type": "film",
+      "release_date": "2024-12-25",
+      "release_year": 2024,
+      "status": "released",
+      "directors": "Halina Reijn",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "parthenope-2025",
+      "title": "Parthenope",
+      "media_type": "film",
+      "release_date": "2025-02-07",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Paolo Sorrentino",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "on-becoming-a-guinea-fowl-2025",
+      "title": "On Becoming a Guinea Fowl",
+      "media_type": "film",
+      "release_date": "2025-03-07",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Rungano Nyoni",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "opus-2025",
+      "title": "Opus",
+      "media_type": "film",
+      "release_date": "2025-03-14",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Mark Anthony Green",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "death-of-a-unicorn-2025",
+      "title": "Death of a Unicorn",
+      "media_type": "film",
+      "release_date": "2025-03-28",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Alex Scharfman",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "warfare-2025",
+      "title": "Warfare",
+      "media_type": "film",
+      "release_date": "2025-04-11",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Ray Mendoza and Alex Garland",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-legend-of-ochi-2025",
+      "title": "The Legend of Ochi",
+      "media_type": "film",
+      "release_date": "2025-04-18",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Isaiah Saxon",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "friendship-2025",
+      "title": "Friendship",
+      "media_type": "film",
+      "release_date": "2025-05-09",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Andrew DeYoung",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "bring-her-back-2025",
+      "title": "Bring Her Back",
+      "media_type": "film",
+      "release_date": "2025-05-30",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Danny and Michael Philippou",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "materialists-2025",
+      "title": "Materialists",
+      "media_type": "film",
+      "release_date": "2025-06-13",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Celine Song",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "sorry-baby-2025",
+      "title": "Sorry, Baby",
+      "media_type": "film",
+      "release_date": "2025-06-27",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Eva Victor",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "eddington-2025",
+      "title": "Eddington",
+      "media_type": "film",
+      "release_date": "2025-07-18",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Ari Aster",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "architecton-2025",
+      "title": "Architecton",
+      "media_type": "film",
+      "release_date": "2025-08-01",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Victor Kossakovsky",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "highest-2-lowest-2025",
+      "title": "Highest 2 Lowest",
+      "media_type": "film",
+      "release_date": "2025-08-15",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Spike Lee",
+      "notes": "Produced by A24; distributed by Apple TV+",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "ne-zha-2-2025",
+      "title": "Ne Zha 2",
+      "media_type": "film",
+      "release_date": "2025-08-22",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Jiaozi",
+      "notes": "English dubbed version; co-distribution with CMC Pictures",
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-smashing-machine-2025",
+      "title": "The Smashing Machine",
+      "media_type": "film",
+      "release_date": "2025-10-03",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Benny Safdie",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Makeup and Hairstyling",
+            "nominee": "Kazu Hiro, Glen Griffin and Bjoern Rehbein",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Makeup and Hairstyling); did not win."
+        ]
+      }
+    },
+    {
+      "id": "if-i-had-legs-i-d-kick-you-2025",
+      "title": "If I Had Legs I'd Kick You",
+      "media_type": "film",
+      "release_date": "2025-10-10",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Mary Bronstein",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 1,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Actress",
+            "nominee": "Rose Byrne",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 1 nomination (Best Actress, Rose Byrne); did not win."
+        ]
+      }
+    },
+    {
+      "id": "eternity-2025",
+      "title": "Eternity",
+      "media_type": "film",
+      "release_date": "2025-11-26",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "David Freyne",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "marty-supreme-2025",
+      "title": "Marty Supreme",
+      "media_type": "film",
+      "release_date": "2025-12-25",
+      "release_year": 2025,
+      "status": "released",
+      "directors": "Josh Safdie",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "verified",
+        "nominations_total": 9,
+        "wins_total": 0,
+        "nominations": [
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Picture",
+            "nominee": "Eli Bush, Ronald Bronstein, Josh Safdie, Anthony Katagas and Timothée Chalamet",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          },
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Director",
+            "nominee": "Josh Safdie",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          },
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Actor",
+            "nominee": "Timothée Chalamet",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          },
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Original Screenplay",
+            "nominee": "Ronald Bronstein and Josh Safdie",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          },
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Casting",
+            "nominee": "Jennifer Venditti",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          },
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Cinematography",
+            "nominee": "Darius Khondji",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          },
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Costume Design",
+            "nominee": "Miyako Bellizzi",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          },
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Film Editing",
+            "nominee": "Ronald Bronstein and Josh Safdie",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          },
+          {
+            "ceremony": "98th (2026)",
+            "category": "Best Production Design",
+            "nominee": "Jack Fisk (production design) and Adam Willis (set decoration)",
+            "won": false,
+            "basis": "stated",
+            "source": "Academy (oscars.org/oscars/ceremonies/2026), 98th"
+          }
+        ],
+        "notes": [
+          "Checked against the Academy's own ceremony page: 9 nominations at the 98th ceremony; no wins."
+        ]
+      }
+    },
+    {
+      "id": "the-moment-2026",
+      "title": "The Moment",
+      "media_type": "film",
+      "release_date": "2026-01-30",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Aidan Zamiri",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "pillion-2026",
+      "title": "Pillion",
+      "media_type": "film",
+      "release_date": "2026-02-06",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Harry Lighton",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "how-to-make-a-killing-2026",
+      "title": "How to Make a Killing",
+      "media_type": "film",
+      "release_date": "2026-02-20",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "John Patton Ford",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "andre-is-an-idiot-2026",
+      "title": "André Is an Idiot",
+      "media_type": "film",
+      "release_date": "2026-03-06",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Tony Benna",
+      "notes": "Produced by A24; distributed by Joint Venture",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "undertone-2026",
+      "title": "Undertone",
+      "media_type": "film",
+      "release_date": "2026-03-13",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Ian Tuason",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "marc-by-sofia-2026",
+      "title": "Marc by Sofia",
+      "media_type": "film",
+      "release_date": "2026-03-20",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Sofia Coppola",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-drama-2026",
+      "title": "The Drama",
+      "media_type": "film",
+      "release_date": "2026-04-03",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Kristoffer Borgli",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "mother-mary-2026",
+      "title": "Mother Mary",
+      "media_type": "film",
+      "release_date": "2026-04-17",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "David Lowery",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "backrooms-2026",
+      "title": "Backrooms",
+      "media_type": "film",
+      "release_date": "2026-05-29",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Kane Parsons",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-death-of-robin-hood-2026",
+      "title": "The Death of Robin Hood",
+      "media_type": "film",
+      "release_date": "2026-06-19",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Michael Sarnoski",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-invite-2026",
+      "title": "The Invite",
+      "media_type": "film",
+      "release_date": "2026-06-26",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Olivia Wilde",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "tony-2026",
+      "title": "Tony",
+      "media_type": "film",
+      "release_date": "2026-08-07",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Matt Johnson",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "onslaught-2026",
+      "title": "Onslaught",
+      "media_type": "film",
+      "release_date": "2026-09-04",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Adam Wingard",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "primetime-2026",
+      "title": "Primetime",
+      "media_type": "film",
+      "release_date": "2026-09-25",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Lance Oppenheim",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "misty-green-2026",
+      "title": "Misty Green",
+      "media_type": "film",
+      "release_date": "2026-10-09",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Chris Rock",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "you-can-see-everything-2026",
+      "title": "You Can See Everything",
+      "media_type": "film",
+      "release_date": "2026-10-16",
+      "release_year": 2026,
+      "status": "released",
+      "directors": "Nathan Fielder and Lance Oppenheim",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "club-kid-2026",
+      "title": "Club Kid",
+      "media_type": "film",
+      "release_date": "2026-11-06",
+      "release_year": 2026,
+      "status": "upcoming_dated",
+      "directors": "Jordan Firstman",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "nuisance-bear-2026",
+      "title": "Nuisance Bear",
+      "media_type": "film",
+      "release_date": "2026-11-06",
+      "release_year": 2026,
+      "status": "upcoming_dated",
+      "directors": "Jack Weisman and Gabriela Osio Vanden",
+      "notes": "Produced by A24; distributed by Mubi",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-debut-2026",
+      "title": "The Debut",
+      "media_type": "film",
+      "release_date": "2026-12-11",
+      "release_year": 2026,
+      "status": "upcoming_dated",
+      "directors": "Jesse Eisenberg",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "slayground-2027",
+      "title": "Slayground",
+      "media_type": "film",
+      "release_date": "2027-01-29",
+      "release_year": 2027,
+      "status": "upcoming_dated",
+      "directors": "Jeremy Saulnier",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "elden-ring-2028",
+      "title": "Elden Ring",
+      "media_type": "film",
+      "release_date": "2028-03-03",
+      "release_year": 2028,
+      "status": "upcoming_dated",
+      "directors": "Alex Garland",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "altar-2027",
+      "title": "Altar",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Egor Abramenko",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-chaperones-2027",
+      "title": "The Chaperones",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "India Donaldson",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "deep-cuts-2027",
+      "title": "Deep Cuts",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Sean Durkin",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "enemies-2027",
+      "title": "Enemies",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Henry Dunham",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-entertainment-system-is-down-2027",
+      "title": "The Entertainment System Is Down",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Ruben Östlund",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "famous-2027",
+      "title": "Famous",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Jody Hill",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "flesh-of-the-gods-2027",
+      "title": "Flesh of the Gods",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Panos Cosmatos",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "hillside-drive-2027",
+      "title": "Hillside Drive",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Lenny Abrahamson",
+      "notes": "U.S. distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-land-of-nod-2027",
+      "title": "The Land of Nod",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Kyle Edward Ball",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-masque-of-the-red-death-2027",
+      "title": "The Masque of the Red Death",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Charlie Polinger",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "peaked-2027",
+      "title": "Peaked",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Molly Gordon",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-peasant-2027",
+      "title": "The Peasant",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Dev Patel",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "the-riders-2027",
+      "title": "The Riders",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Edward Berger",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "v-h-s-scp-2027",
+      "title": "V/H/S: SCP",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": null,
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "wizards-2027",
+      "title": "Wizards!",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "David Michôd",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "untitled-film-2027",
+      "title": "Untitled film",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": 2027,
+      "status": "announced_year_only",
+      "directors": "Arkasha Stevenson",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "ancient-history",
+      "title": "Ancient History",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": null,
+      "status": "announced_tba",
+      "directors": "Annie Baker",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "goblin",
+      "title": "Goblin",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": null,
+      "status": "announced_tba",
+      "directors": "David Mikalson",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "hotel-hotel-hotel-hotel",
+      "title": "Hotel Hotel Hotel Hotel",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": null,
+      "status": "announced_tba",
+      "directors": "Michael Shanks",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "no-one-is-coming",
+      "title": "No One Is Coming",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": null,
+      "status": "announced_tba",
+      "directors": "Ronan Corrigan",
+      "notes": null,
+      "a24_produced": false,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "please",
+      "title": "Please",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": null,
+      "status": "announced_tba",
+      "directors": "Halina Reijn",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "schiller-park",
+      "title": "Schiller Park",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": null,
+      "status": "announced_tba",
+      "directors": "Conner O'Malley",
+      "notes": "Also produced by A24",
+      "a24_produced": true,
+      "distribution_only": false,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "stages",
+      "title": "Stages",
+      "media_type": "film",
+      "release_date": null,
+      "release_year": null,
+      "status": "announced_tba",
+      "directors": "Sonoya Mizuno",
+      "notes": "North American distribution only",
+      "a24_produced": false,
+      "distribution_only": true,
+      "re_release": false,
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    }
+  ],
+  "films_in_development": [
+    {
+      "id": "dev-backrooms-2",
+      "title": "Backrooms 2",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-barney",
+      "title": "Barney",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-bloodsport",
+      "title": "Bloodsport",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-breakthrough",
+      "title": "Breakthrough",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-bushido",
+      "title": "Bushido",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-death-stranding",
+      "title": "Death Stranding",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-dennis",
+      "title": "Dennis",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-the-guest",
+      "title": "The Guest",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-the-heaven-earth-grocery-store",
+      "title": "The Heaven & Earth Grocery Store",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-jonty",
+      "title": "Jonty",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-the-looming",
+      "title": "The Looming",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-mice",
+      "title": "Mice",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-not-another-f-king-wedding",
+      "title": "Not Another F**king Wedding",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-on-earth-we-re-briefly-gorgeous",
+      "title": "On Earth We're Briefly Gorgeous",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-scapegoat",
+      "title": "Scapegoat",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-talk-2-me",
+      "title": "Talk 2 Me",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-the-texas-chainsaw-massacre",
+      "title": "The Texas Chainsaw Massacre",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-three-times-a-lady",
+      "title": "Three Times a Lady",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-untitled-alex-garland-sci-fi-film",
+      "title": "Untitled Alex Garland sci-fi film",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    },
+    {
+      "id": "dev-why-don-t-you-love-me",
+      "title": "Why Don't You Love Me?",
+      "media_type": "film",
+      "status": "in_development_no_date",
+      "oscars": {
+        "status": "not_yet_researched",
+        "nominations_total": null,
+        "wins_total": null,
+        "nominations": []
+      }
+    }
+  ],
+  "other_media": [
+    {
+      "id": "tv-at-home-with-amy-sedaris",
+      "title": "At Home with Amy Sedaris",
+      "media_type": "television",
+      "years": "2017–2020",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-beef",
+      "title": "Beef",
+      "media_type": "television",
+      "years": "2023–present",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-the-carmichael-show",
+      "title": "The Carmichael Show",
+      "media_type": "television",
+      "years": "2015–2017",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-euphoria",
+      "title": "Euphoria",
+      "media_type": "television",
+      "years": "2019–2026",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-hazbin-hotel",
+      "title": "Hazbin Hotel",
+      "media_type": "television",
+      "years": "2024–present",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-i-m-sorry",
+      "title": "I'm Sorry",
+      "media_type": "television",
+      "years": "2017–2019",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-irma-vep",
+      "title": "Irma Vep",
+      "media_type": "television",
+      "years": "2022",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-mo",
+      "title": "Mo",
+      "media_type": "television",
+      "years": "2022–2025",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-mr-corman",
+      "title": "Mr. Corman",
+      "media_type": "television",
+      "years": "2021",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-ramy",
+      "title": "Ramy",
+      "media_type": "television",
+      "years": "2019–2022",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-ziwe",
+      "title": "Ziwe",
+      "media_type": "television",
+      "years": "2021–2022",
+      "source_note": "Listed on Wikipedia's A24 article as an A24 television program"
+    },
+    {
+      "id": "tv-playing-house",
+      "title": "Playing House",
+      "media_type": "television",
+      "years": null,
+      "source_note": "Mentioned on A24 article as a USA Network series A24 began producing (A24 TV division early slate)"
+    },
+    {
+      "id": "tv-comrade-detective",
+      "title": "Comrade Detective",
+      "media_type": "television",
+      "years": null,
+      "source_note": "Mentioned on A24 article as a series A24 worked to develop (produced by Channing Tatum)"
+    },
+    {
+      "id": "tv-boyfriend-material",
+      "title": "Boyfriend Material",
+      "media_type": "television",
+      "years": null,
+      "status": "announced_2026",
+      "source_note": "A24 UK optioned Alexis Hall's novel for a TV adaptation (April 2026 per A24 article)"
+    },
+    {
+      "id": "tv-white-smoke",
+      "title": "White Smoke",
+      "media_type": "television",
+      "years": null,
+      "status": "announced_2026",
+      "source_note": "TV adaptation of Nick Brucker's upcoming novel; Benedict Cumberbatch attached to star and produce (April 2026 per A24 article)"
+    },
+    {
+      "id": "podcast-the-a24-podcast",
+      "title": "The A24 Podcast",
+      "media_type": "podcast",
+      "years": "2018–",
+      "source_note": "Launched February 28, 2018; 41 episodes as of May 2024 per A24 article"
+    }
+  ]
+}
